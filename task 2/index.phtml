@@ -1,0 +1,30 @@
+<?php
+
+use App\Article;
+include("all-dependencies.php");
+
+$article = (new Article)->loadById( 313 );
+
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?=$article->getTitle()?></title>
+    </head>
+    <body>
+        <h1>
+            <?=$article->getTitle()?>
+        </h1>
+        <p>
+            <?=$article->getBody()?>
+        </p>
+        <ul id="comments">
+            <?php
+                foreach($article->getComments() as $comment){
+                    $comment->render();
+                }
+            ?>
+        </ul>
+    </body>
+</html>
