@@ -1,0 +1,58 @@
+<?php
+
+use App\MemoryGame;
+
+$userId = $_SESSION['userId']; // assumiamo che l'utente sia già registrato e autenticato
+$game = new MemotyGame( $userId );
+
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Memory</title>
+    </head>
+    <body>
+        <div id="board">
+
+            <ul id="cards">
+
+                <li class="card" id="card-1"></li>
+                <li class="card" id="card-2"></li>
+                <li class="card" id="card-3"></li>
+                <li class="card" id="card-4"></li>
+                <li class="card" id="card-5"></li>
+                <li class="card" id="card-6"></li>
+
+            </ul>
+
+        </div>
+    </body>
+
+    <script src="jQuery.js"></script>
+    <script>
+
+        firstItem = null;
+        secondItem = null;
+
+        $('.card').on('click', function(e){
+            let id = $(this).attr('id');
+            if( firstItem ){
+                secondItem = id;
+                guessed = isSameCard( firstItem, secondItem);
+                if( guessed ){
+
+                } else {
+                    
+                }
+            } else {
+                firstItem = id;
+            }
+        });
+
+        function isSameCard( firstItem, secondItem){
+            // return true or false
+        }
+
+    </script>
+</html>
