@@ -1,10 +1,10 @@
-Contesto:
-E-commerce, vedi schema erd del database
+##Contesto:
+E-commerce, vedi [schema erd del database](https://app.diagrams.net/#Hgiorgioshots%2Fshots-interview%2Fmaster%2Fsimplified-ecommerce-erd.drawio)
 
-Stack:
+##Stack:
 MySQL + PHP + JS/jQuery + AJAX
 
-Richiesta cliente:
+##Richiesta cliente:
 Sviluppare un gioco memory. Il cliente deve gestire in autonomia le coppie di elementi che compongono il gioco tramite CMS.
 Possono giocare solo gli utenti già registrati e autenticati. Ognuno può giocare solo una volta.
 Se il giocatore crea un accoppiamento sbagliato, non succede nulla.
