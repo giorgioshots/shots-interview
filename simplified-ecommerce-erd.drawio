@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T10:44:13.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="sj5PSvQPcL3Ou-eF15KD" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-09T10:50:47.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="-icH-yhC0crbGCC2lgZZ" version="17.4.1" type="github">
   <diagram id="dGvS4o4yqZIZggAh3cyF" name="Page-1">
     <mxGraphModel dx="2560" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aOj7y_uwlhnqdytn4fbu-27" value="Product" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="aOj7y_uwlhnqdytn4fbu-27" value="Products" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="477" y="490" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="aOj7y_uwlhnqdytn4fbu-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="aOj7y_uwlhnqdytn4fbu-27" vertex="1">
