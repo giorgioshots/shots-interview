@@ -1,2 +1,2 @@
 # shots-interview
-Shots interview for backend dev position
+Shots interview for junior backend dev position
